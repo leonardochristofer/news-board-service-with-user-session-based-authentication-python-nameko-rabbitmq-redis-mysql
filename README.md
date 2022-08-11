@@ -1,13 +1,13 @@
 # News Board Service With User Session Based Authentication
 This pack of service contains:
-## User Access Service
+# User Access Service
 1. Register API (add user to database)
 - `127.0.0.1:8000/register`
 2. Login API (get user from database to create user session)
 - `127.0.0.1:8000/login`
 3. Logout API (delete session)
 - `127.0.0.1:8000/logout`
-## News Board Service
+# News Board Service
 1. Add News API (Login Required)
 - `127.0.0.1:8000/add-news`
 2. Edit News API (Login Required)
@@ -20,9 +20,9 @@ This pack of service contains:
 - `127.0.0.1:8000/get-news-by-id`
 6. Download File By Id API
 - `127.0.0.1:8000/download-file-by-id`
-## Prerequisite to running Gateway and Service
+# Prerequisite
 This service uses python, nameko, rabbitmq, redis, and mysql. I assume that you have everything installed on your local machine.
-## Steps
+# Steps
 1. Clone this repository.
 2. Import .sql file from database folder into your local machine mysql database. There are two database to import in total, one for user access service and one for news board service.
 3. Open 3 terminals.
